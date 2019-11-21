@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/steplgkx/cmr.ryangruss.net/torque
+    - /bin/cp -R web/* $DEPLOYPATH
